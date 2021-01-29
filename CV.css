@@ -1,0 +1,165 @@
+/* Alumno: Zupo Silveira Gonzalo Adolfo
+Matricula: E17081554
+Carrera: Ingenieria en Sistemas Computacionales
+Grado y Grupo: 7SB */
+
+
+/* Aqui se establece el aspecto que tendra el fondo
+de la página web, más no de los contenedores */
+*{
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color: lightgray;
+ }
+
+
+ .contenedor {
+    margin-left: 10%;
+    margin-right: 10%;
+ }
+ .columna {
+    display: -webkit-flex;
+    display: flex;
+    padding: 30px;
+ }
+
+ /* Aqui se esablece la estetica que tendra la columna izquierda, como lo es
+ el color, la fuente, etc. */
+ .columna.izquierda {
+    background-color: #20364d;   
+    -webkit-flex: 1;
+    flex: 1;
+    flex-direction: column;   
+    box-shadow: 30px 20px darkgray;
+ }
+
+ /* Aqui se define el aspecto que tendra la columna derecha y, al igual que 
+ en la columna izquierda, aqui tambien uso Flexbox*/
+ .columna.derecha {
+    background-color: azure;
+    -webkit-flex: 2;
+    flex: 2;
+    flex-direction: column;   
+    box-shadow: 30px 20px darkgray;
+ }
+
+ /* Aqui defino el estilo para la linea de texto donde escribi la carrera
+ que estoy cursando */
+ .carrera {
+    color: white;
+    background-color: #20364d;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Times;
+    font-size: small;
+ }
+
+ /*Al igual que el anterior, aqui tengo establecido el aspecto el estilo
+ para la linea de texto correspondiente */
+ .titulo_ladoizquierdo {
+    color: white;
+    background-color: #20364d;
+    text-transform: uppercase;
+    font-size: xx-large;
+    text-align: center;
+    font-family: Times;
+ }
+
+/*Al igual que el anterior, aqui tengo establecido el aspecto el estilo
+ para la linea de texto correspondiente */
+ .titulo_ladoderecho {
+    background-color: azure;
+    text-transform: uppercase;
+    font-family: Candara;
+    font-size: xx-large;
+ }
+
+/*Al igual que el anterior, aqui tengo establecido el aspecto el estilo
+ para la linea de texto correspondiente */
+ .subtitulo_ladoizquierdo {
+    color: white;
+    background-color: #20364d;
+    text-transform: uppercase;
+    font-size: x-large;
+    text-align: center;
+    font-family: Times;
+ }
+
+/*Al igual que el anterior, aqui tengo establecido el aspecto el estilo
+ para la linea de texto correspondiente */
+ .subtitulo_ladoderecho {
+    background-color: azure;
+    text-transform: uppercase;
+    font-family: Times;
+    font-size: x-large;
+ }
+
+ /* Aqui pasa lo mismo pero con el parrafo, 
+ de hecho, en todo el archivo css se repite esto
+ porque establezco la estetica de cada parte del CV */
+
+ p {
+    font-size: large;
+    text-align: justify;
+    font-family: Times;
+ }
+ .p.ladoizquierdo {
+    color: white;
+    background-color: #20364d;
+ }
+ .p.ladoderecho {
+    background-color: azure;
+ }
+ li.izquierda{
+    text-decoration: none;
+    font-family: Candara;
+    background-color: #20364d;
+    color: white; 
+ }
+ ul {
+    background-color: #20364d;
+    margin-left: 10px;
+ }
+ span {
+    font-family: Calibri;
+    background-color: #20364d;
+    color: white;
+    text-align: center;
+ }
+ img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+ }
+ .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa:hover {
+    opacity: 0.8;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .derecha{
+    text-decoration: none;
+    font-family: Times;
+    background-color: azure;
+ }
+ .lista1_derecha {
+    background-color: azure;
+    
+ }
+ .lista2_derecha {
+    background-color: azure;
+ }
